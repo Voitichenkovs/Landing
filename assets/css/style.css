@@ -650,3 +650,73 @@ padding: 80px 0;
   font-weight: 300;
 
 }
+
+/* clients */
+.section--clients{
+  padding-bottom: 100px;
+  background: url(../images/clients-bg.jpg) center no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+
+.clients {
+  padding: 0 110px;
+  position: relative;
+}
+.clients__info{
+  display: flex;
+}
+.clients__item {
+  padding-left: 150px;
+  position: relative;
+  margin: 0 30px 60px 30px;
+}
+
+.clients__photo {
+  border: 2px solid #95e1d3;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.clients__text {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+  color: #999999;
+}
+
+.name {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
+  color: #333;
+  
+}
+
+.clients__name {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;
+  width: 50px;
+  height: 3px;
+  margin-right: 10px;
+
+  background-color: red;
+}
+
+.clients__name__BIO{
+  font-size: 11px;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.clients__prof{
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 300;
+  columns: #999999;
+}
