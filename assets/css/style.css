@@ -997,6 +997,9 @@ color: #999999;
   text-decoration: none;
   text-transform: uppercase;
 }
+.blogs__content a:hover{
+  text-decoration: underline;
+}
 .blogs__date{
   font-size: 14px;
   color: #999999;
@@ -1005,18 +1008,20 @@ color: #999999;
 }
 
 /* instagram */
-/* .instagram{
-  display:flex;
-  flex-wrap: wrap;
-} */
+/* .instagram{ */
+  /* display:flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
 
 .instagram__item{
+  /* width: 33.33333%; */
+  /* border-bottom: 1px solid white; */
   text-decoration: none;
 }
+/* .instagram__item img{ */
+  /* display: ; */
+}
 
-/* .instagram__item img{
-  /* max-width: 33.3333%;
-} */
 
 
 /* copyright */
