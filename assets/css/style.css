@@ -6,9 +6,11 @@ body {
     margin: 0 auto;
   }
 
-  *,
-  *::before ::after
-  *box-sizig: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
   
   hr{
     display: block;
