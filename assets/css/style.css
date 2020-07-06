@@ -11,15 +11,6 @@ body {
 *::after {
   box-sizing: border-box;
 }
-  
-  hr{
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: #e5e5e5;
-    border: 0;
-    margin: 40px 0;
-  }
 
   /* Header */
   .container {
@@ -356,6 +347,7 @@ padding: 80px 0;
 /* Services */
 .services{
   display: flex;
+  flex-wrap: wrap;
 
 }
 .services__item{
@@ -363,6 +355,15 @@ padding: 80px 0;
   padding-left: 85px;
   position: relative;
   padding-right: 35px;
+
+}
+.border{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    border: 0;
+    margin: 40px 0;
 }
 .services__icon{
   width: 30px;
@@ -1085,6 +1086,17 @@ text-align: center;
    .stat__item:last-child{
      border-right: 0;
    }
+
+   /* services */
+   .border{
+    display: none;
+   }
+   
+   .services__item{
+    flex: none;
+    width: 50%;
+    padding-top: 40px;
+   }
 }
 
 
@@ -1153,5 +1165,11 @@ text-align: center;
    .stat__num{
      font-size: 52px;
    }
+/* services */
+.services__item{
+  flex: none;
+  width: 100%;
+  padding-top: 40px;
+ }
 
 }
