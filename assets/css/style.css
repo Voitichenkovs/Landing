@@ -1243,4 +1243,15 @@ text-align: center;
   .reviews__btn{
     top: 15%;
   }
+  /* logos */
+  .logos{
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .logos__item img{
+    width: 115px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
