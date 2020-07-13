@@ -625,7 +625,6 @@ padding: 80px 0;
 .works__item{
   position: relative;
 
-
   background: linear-gradient(to bottom, #f38181, #fce38a);
 
 }
@@ -1122,7 +1121,24 @@ text-align: center;
    .reviews__item{
      padding-left: 170px;
    }
-
+   /* footer */
+   .footer__inner{
+     flex-wrap: wrap;
+     margin: 0 20px;
+   }
+  .footer__col--first{
+  width: 100%;
+  margin-bottom: 20px;
+}
+   .footer__col--second{
+  width: 50%;
+}
+    .footer__col--third{
+  width: 50%;
+}
+.instagram__item__img{
+  width: 24.3%;
+}
 }
 
 
@@ -1174,6 +1190,89 @@ text-align: center;
   .reviews__author{
     font-size: 16px;
   }
+  /* logos */
+  .logos{
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .logos__item img{
+    width: 115px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /* .works */
+  .works{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .works__col{
+    flex: none;
+    width: 50%;
+  }
+
+  /* clients */
+  .clients__info{
+    display:block ;
+  }
+
+  /* blog */
+  .blog{
+    flex-wrap: wrap;
+  }
+  .blog__item{
+    width: 55%;
+    margin: 15px auto;
+}
+  /* footer */
+  .footer__inner{
+    flex-wrap: wrap;
+    /* margin: 20px 50px; */
+  }
+ .footer__col--first{
+ width: 100%;
+}
+  .footer__col--second{
+ width: 100%;
+}
+   .footer__col--third{
+ width: 100%;
+}
+.instagram__item__img{
+  width: 32.33333%;
+  /* margin: 0 auto; */
+}
+.footer__text {
+  font-size: 22px;
+}
+.footer__social--header {
+    font-size: 20px;
+  }
+.footer__social--content {
+  font-size: 24px;
+}
+.footer__social--header b {
+  font-size: 24px;
+}
+.subscribe {
+  max-width: 400px;
+  height: 50px;
+}
+.footer__title {
+  font-size: 20px;
+}
+.blogs__item img {
+  height: 100px;
+  width: 150px;
+}
+.blogs__content a {
+  font-size: 20px;
+}
+.blogs__date {
+  font-size: 18px;
+}
+
 }
 
 @media (max-width: 575px) {
@@ -1254,4 +1353,37 @@ text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
+  /* .works */
+  .works{
+    display: block;
+    width: 100%;
+    max-width: 410px;
+    margin: 0 auto;
+  }
+  .works__col {
+    width: 100%;
+}
+
+/* clients */
+.clients__photo{
+  position: static;
+  margin: 0 auto 20px;
+  display: flex;
+}
+.clients__item{
+  padding-left: 0;
+  text-align: center;
+}
+/* .footer */
+.subscribe {
+  max-width: 100%;
+  height: 50px;
+}
+.blogs__content a {
+  font-size: 14px;
+}
+.blogs__date {
+  font-size: 16px;
+}
 }
